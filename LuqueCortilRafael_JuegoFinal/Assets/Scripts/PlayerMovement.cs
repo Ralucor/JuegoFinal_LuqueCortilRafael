@@ -4,6 +4,7 @@ using UnityEngine;
 public class PlayerMovement : MonoBehaviour
 {
     [SerializeField] int speed = 5;
+    [SerializeField] SpriteRenderer sprite;
     public int jump = 5;
     Rigidbody2D rb;
     void Start()
@@ -19,6 +20,12 @@ public class PlayerMovement : MonoBehaviour
 
         if(Input.GetKeyDown(KeyCode.Space)&&touchGround()==true){
             rb.AddForce(Vector2.up * jump, ForceMode2D.Impulse);
+        }
+        if (entradaX>0){
+            sprite.flipX=false;
+        }
+        else if(entradaX<0){
+            sprite.flipX=true;
         }
     }
     private bool touchGround(){
