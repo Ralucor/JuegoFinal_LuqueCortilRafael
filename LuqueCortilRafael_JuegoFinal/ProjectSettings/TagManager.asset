@@ -6,14 +6,15 @@ TagManager:
   tags:
   - Projectile
   - Limit
+  - weapon
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  - Player
   - Water
   - UI
-  - 
+  - Projectile
   - 
   - 
   - 
