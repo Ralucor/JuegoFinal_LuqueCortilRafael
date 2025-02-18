@@ -209,7 +209,11 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      miraJuego2D_0: 1872969967289763395
+      miraJuego2D_1: -3661923310935347831
+      miraJuego2D_2: -2357039616360478188
+      miraJuego2D_3: 2163897397788718088
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
