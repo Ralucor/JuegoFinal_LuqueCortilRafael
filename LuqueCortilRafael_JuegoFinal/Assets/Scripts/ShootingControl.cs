@@ -6,12 +6,10 @@ public class ShootingControl : MonoBehaviour
     public Vector2 DragEnd;
     public Vector2 Launch;
     [SerializeField] GameObject bullet;
-    [SerializeField]LineRenderer lr;
     [SerializeField] GameObject weapon;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        lr = GetComponent<LineRenderer>();
     }
 
     // Update is called once per frame
