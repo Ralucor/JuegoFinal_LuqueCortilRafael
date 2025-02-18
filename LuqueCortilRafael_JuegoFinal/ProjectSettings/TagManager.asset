@@ -7,6 +7,7 @@ TagManager:
   - Projectile
   - Limit
   - weapon
+  - melee
   layers:
   - Default
   - TransparentFX
