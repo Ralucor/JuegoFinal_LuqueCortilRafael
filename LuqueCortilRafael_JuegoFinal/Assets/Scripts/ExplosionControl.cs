@@ -28,7 +28,6 @@ public class ExplosionControl : MonoBehaviour
     void OnTriggerEnter2D(Collider2D other){
         if(other.CompareTag("Player")){
             Exploded=true;
-            print("parate;");
         }
     }
 }
