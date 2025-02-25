@@ -10,6 +10,8 @@ TagManager:
   - melee
   - Volume
   - Enemy
+  - Detect
+  - Explosion
   layers:
   - Default
   - TransparentFX
