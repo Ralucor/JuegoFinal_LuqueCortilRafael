@@ -1,3 +1,4 @@
+using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
@@ -14,14 +15,17 @@ public class PlayerHealth : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+         if(health <=0){
+            SceneManager.LoadScene("TestScene");
+        }
     }
     private void OnTriggerEnter2D(Collider2D other){
         if(other.gameObject.tag=="Enemy"){
             health--;
         }
-        if(health <=0){
-            SceneManager.LoadScene("TestScene");
+        if(other.gameObject.tag=="Explosion"){
+            health=health-3;
         }
+       
     }
 }

@@ -1602,18 +1602,6 @@ LineRenderer:
   m_UseWorldSpace: 1
   m_Loop: 0
   m_ApplyActiveColorSpace: 1
---- !u!114 &546738152
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 546738147}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ee0973f5b01ac6247916e07bc1bae907, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &619394800
 GameObject:
   m_ObjectHideFlags: 0
@@ -1710,7 +1698,7 @@ GameObject:
   - component: {fileID: 795787216}
   m_Layer: 0
   m_Name: Explosion
-  m_TagString: Untagged
+  m_TagString: Explosion
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2936,9 +2924,6 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 127507352821739009, guid: 664d225d4c4300a489422f8f2a01f105, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1189895289}
-    - targetCorrespondingSourceObject: {fileID: 5685813869625792505, guid: 664d225d4c4300a489422f8f2a01f105, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 546738152}
     - targetCorrespondingSourceObject: {fileID: 5685813869625792505, guid: 664d225d4c4300a489422f8f2a01f105, type: 3}
       insertIndex: -1
       addedObject: {fileID: 546738151}
